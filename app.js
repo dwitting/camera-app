@@ -82,5 +82,5 @@ c.style.left = x + dx;
 
 }
 
-alert("javascript loaded");
+//alert("javascript loaded");
 window.onload = init;
