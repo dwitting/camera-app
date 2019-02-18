@@ -18,6 +18,7 @@ html, body{
 #camera--view, #camera--sensor, #camera--output{
     transform: scaleX(-1);
     filter: FlipH;
+     facingMode: "environment";
 }
 
 #camera--trigger{
@@ -33,6 +34,7 @@ html, body{
     position: fixed;
     bottom: 30px;
     left: calc(50% - 100px);
+    facingMode: "environment";
 }
 
 .taken{
