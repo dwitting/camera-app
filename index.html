@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="style.css"> 
 	</head>
 	<body>
-
+	<form method="post" enctype="multipart/form-data">
 		<!-- Camera -->
 		<main id="camera">
 
@@ -24,15 +24,16 @@
 		    <!-- Camera output -->
 		    <img src="//:0" alt="" id="camera--output">
 			
-<div id="screen">
+	<div id="screen">
       <div id="text"> This is some text</div>
       <div id="ball"> <img src="circle.png"/> </div>
       <div id="center"> <img src="center.png"/> </div>
       </div><br>		
 
-		    <!-- Camera trigger -->
-		    <button id="camera--trigger">Take Picture</button>
-
+		    <!-- Camera trigger 
+		    <button id="camera--trigger">Take Picture</button> -->
+           <input id="form-button" type="submit" class="btn btn-primary btn-xl" value="Take Picture" onclick="this.style.visibility = 'hidden'" >
+            </form>
 		</main>
 			 
 
