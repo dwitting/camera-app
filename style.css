@@ -57,7 +57,7 @@ outline: 0px;
 
 #screen{
 height: auto;
-width: device-width;
+width: 640px;
 position: absolute;
 
 }
