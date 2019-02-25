@@ -56,11 +56,12 @@ outline: 0px;
 }
 
 #screen{
-height: auto;
+background-color: #aaaaaa;
+background-image: url("screen.png") ;
+  height: auto;
 width: 640px;
 position: absolute;
-background-image: url("screen.png") ;
-background-color: #cccccc;
+
 
 }
 
