@@ -62,6 +62,21 @@ position: absolute;
 
 }
 
+@media (max-width: 480px) {
+  #picblock {
+    background-image: screen.png;
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 481px) {
+  #picblock {
+    background-image: screen100px.png;
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+
 
 #ball{
 left: 100px;
