@@ -64,14 +64,14 @@ position: absolute;
 
 @media (max-width: 480px) {
   #picblock {
-    background-image: screen.png;
+    background-image: url("screen.png") ;
     background-repeat: no-repeat;
     background-size: contain ;
   }
 }
 @media (min-width: 481px) {
   #picblock {
-    background-image: screen100px.png;
+    background-image: url("screen100px.png") ;
     background-repeat: no-repeat;
     background-size: contain ;
   }
