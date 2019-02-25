@@ -71,7 +71,7 @@ position: absolute;
 }
 @media (min-width: 481px) {
   #picblock {
-    background-image: url("screen100px.png") ;
+    background-image: url("screen.png") ;
     background-repeat: no-repeat;
     background-size: contain ;
   }
