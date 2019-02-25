@@ -56,9 +56,8 @@ outline: 0px;
 }
 
 #screen{
-max-height:100%;
-position: absolute;
-align: Center;
+width: 100%;
+height: auto;
 
 }
 
